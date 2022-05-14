@@ -1,0 +1,43 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.5;
+}
+
+html{
+    overflow-y:scroll;
+    scrollbar-color: auto;
+    scrollbar-width:thin;
+}
+
+#products .card {
+    border: none;
+}
+
+#products .card img {
+    width: auto;
+    height: 100px;
+    margin-bottom: -50px;
+    margin-left: 1rem;
+    transition: 0.5s;
+}
+
+#products .card:hover img {
+    transform: scale(1.05) rotate(-10deg);
+}
+
+.img-in-cart {
+    width: 70px;
+}
+
+.scroll{
+    overflow-y:scroll;
+    scrollbar-color: auto;
+    scrollbar-width:thin;
+}
+

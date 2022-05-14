@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Bootstrap CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div>
+                    <div class="row">
+                        <div class="col-lg-8 border-right min-vh-100">
+                            <div class="vh-100 pr-2 scroll">
+                                <div class="header d-flex justify-content-between align-items-end mb-3 pb-3 position-sticky bg-white"
+                                    style="top: 0;z-index: 10;">
+                                    <div class="txt-gp">
+                                        <h3 class="text-primary mb-0">My Shop</h3>
+                                        <small class="text-muted">Bootstrap & jQuery</small>
+                                    </div>
+
+                                    <div class="in-gp d-flex justify-content-between">
+                                        <input type="search" name="" id="search" placeholder="Search Item"
+                                            class="form-control">
+
+                                        <select name="" id="category" class="custom-select ml-3">
+                                            <option value="0">All Category</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div id="products" class="card-columns">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col lg-4">
+                            <div class="vh-100 scroll pr-2">
+                                <div class="d-flex justify-content-between align-items-end mt-3 mb-3">
+                                    <div class="">
+                                        <h4 class="text-primary mb-0">My Cart</h4>
+                                        <small class="text-black-50">Added Items</small>
+                                    </div>
+                                    <div class="">
+                                        <h4>
+                                            <span class="item-in-cart-count">0</span>
+                                            <i class="fas fa-shopping-cart text-primary"></i>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div id="cart">
+
+                                </div>
+                                <div class="total position-sticky py-3 bg-white" style="bottom: 0">
+                                    <p>There is no empty cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="./action.js"></script>
+
+    
+</body>
+
+</html>
